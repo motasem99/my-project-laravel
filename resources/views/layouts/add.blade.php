@@ -1,3 +1,8 @@
+<div class="card">
+        <div class="card-header">
+            <h3>اضافة منتج</h3>
+                </div>
+                    <div class="card-block">
                     @if($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -7,16 +12,6 @@
                         </ul>
                         </div>
                     @endif
-
-<div class="card">
-
-        <div class="card-header">
-            <h3>اضافة منتج</h3>
-                </div>
-                    <div class="card-block">
-
-
-
                         <form action="{{route('work.store')}}" method="post" class="form-horizontal ">
                         @csrf
                             <div class="form-group row">
@@ -29,7 +24,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 form-control-label" for="input-normal">سعر المنتج: </label>
                                 <div class="col-sm-6">
-                                    <input type="text" name="phone" class="form-control" placeholder="ادخل السعر">
+                                    <input type="text" name="prise" class="form-control" placeholder="ادخل السعر">
                                 </div>
                             </div>
 

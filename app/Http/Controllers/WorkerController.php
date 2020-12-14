@@ -41,7 +41,7 @@ class WorkerController extends Controller
         //
         $validData= $request->validate([
             'name'=>'required|min:3',
-            'phone'=> 'required|max:4',
+            'prise'=> 'required|max:4',
             'note'=> 'required',
         ]);
         Worker::create($request->all());
@@ -84,7 +84,7 @@ class WorkerController extends Controller
         //
         $validData= $request->validate([
             'name'=>'required|min:3',
-            'phone'=> 'required|max:4',
+            'prise'=> 'required|max:4',
             'note'=> 'required',
         ]);
 

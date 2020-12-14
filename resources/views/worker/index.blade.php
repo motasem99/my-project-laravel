@@ -28,7 +28,7 @@
 
 
                 <div class="app-card">
-                    <p>${{$row->phone}}</p>
+                    <p>${{$row->prise}}</p>
                         <form method="post" action="{{route('work.destroy',$row->id)}}">
                             @csrf
                             @method('delete')

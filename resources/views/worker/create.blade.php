@@ -21,7 +21,7 @@
                             <input class="input--style-1" type="text" placeholder="name" name="name">
                         </div>
                         <div class="input-group">
-                            <input class="input--style-1" type="text" placeholder="enter your phone" name="phone">
+                            <input class="input--style-1" type="text" placeholder="enter your prise" name="prise">
                         </div>
                         <div class="input-group">
                             <textarea name="note"></textarea>

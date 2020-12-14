@@ -26,3 +26,9 @@ body {
 .card-body {
     background: rgb(230 228 228);
 }
+
+.rtl {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    direction: rtl;
+}
