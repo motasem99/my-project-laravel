@@ -11,5 +11,5 @@ class Worker extends Model
     use HasFactory;
     use SoftDeletes;
     protected $table = 'worker';
-    protected $fillable = ['name','phone','gender','note'];
+    protected $fillable = ['name','phone','note'];
 }

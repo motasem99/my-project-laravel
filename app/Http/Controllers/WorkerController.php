@@ -41,7 +41,8 @@ class WorkerController extends Controller
         //
         $validData= $request->validate([
             'name'=>'required|min:3',
-            'gender'=>'required',
+            'phone'=> 'required|max:4',
+            'note'=> 'required',
         ]);
         Worker::create($request->all());
         return redirect('work');
@@ -83,7 +84,8 @@ class WorkerController extends Controller
         //
         $validData= $request->validate([
             'name'=>'required|min:3',
-            'gender'=>'required',
+            'phone'=> 'required|max:4',
+            'note'=> 'required',
         ]);
 
         $data=Worker::find($id);

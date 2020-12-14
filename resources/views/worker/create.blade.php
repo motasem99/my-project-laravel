@@ -23,21 +23,6 @@
                         <div class="input-group">
                             <input class="input--style-1" type="text" placeholder="enter your phone" name="phone">
                         </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                            <div class="input-group">
-                                    <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="gender">
-                                            <option disabled="disabled" selected="selected">GENDER</option>
-                                            <option value="1">Male</option>
-                                            <option value="2">Female</option>
-                                            <option value="0">Other</option>
-                                        </select>
-                                        <div class="select-dropdown"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="input-group">
                             <textarea name="note"></textarea>
                         </div>
