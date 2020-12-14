@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="/work">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -77,12 +77,7 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; My Website 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+    @include('homestart.footer')
 
   <!-- Bootstrap core JavaScript -->
   <script src="{{ asset('home/vendor/jquery/jquery.min.js') }}"></script>
